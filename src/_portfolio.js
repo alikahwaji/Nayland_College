@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
             navMenu.classList.remove('show');
         });
     }
-
     // Hamburger menu functionality
     const hamburger = document.querySelector('.hamburger');
     const navMenu = document.querySelector('.nav-menu');
@@ -32,4 +31,40 @@ document.addEventListener('DOMContentLoaded', function () {
     hamburger.addEventListener('click', function () {
         navMenu.classList.toggle('show');
     });
+
+    // Close the navigation menu when a link is clicked
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    for (const link of navLinks) {
+        link.addEventListener('click', function () {
+            navMenu.classList.remove('show');
+        });
+    
+ }
+});
+
+function showBackToTopButton() {
+    const backToTopButton = document.querySelector('.back-to-top');
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+    if (scrollPosition > 300) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // ... existing code ...
+
+    // Initialize and handle the "Back to Top" button
+    const backToTopButton = document.querySelector('.back-to-top');
+    
+    backToTopButton.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+    
+    window.addEventListener('scroll', showBackToTopButton);
 });
