@@ -39,7 +39,7 @@ Now that your account is set up, you can start creating repositories, contributi
 
 Remember to explore GitHub's documentation and guides to learn more about its functionalities and how to use them effectively.
 
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------------------|
 
 # Markdown Cheat Sheet
 
@@ -160,3 +160,57 @@ H~2~O
 ### Superscript
 
 X^2^
+
+|--------------------------------------------------------------------------------------------------------------------------|
+
+ # How to Set Up GitHub Pages
+
+GitHub Pages allows you to create and host a simple website directly from your GitHub repository. Follow these step-by-step instructions to set up your own GitHub Pages site:
+
+## 1. Create a new repository
+
+- Go to [GitHub](https://github.com/) and sign in to your account.
+- Click on the "+" icon in the upper right corner and select "New repository".
+- Name your repository as follows: `your-username.github.io`, replacing `your-username` with your GitHub username.
+- Add a short description for your repository (optional).
+- Choose the visibility of your repository: public or private.
+- Initialize the repository with a README.
+- Click "Create repository".
+
+## 2. Clone the repository
+
+- On your repository's main page, click the "Code" button.
+- Copy the HTTPS URL.
+- Open your terminal or command prompt.
+- Navigate to the directory where you want to clone the repository.
+- Run the command `git clone [repository-url]`, replacing `[repository-url]` with the copied HTTPS URL.
+
+## 3. Create your website
+
+- In the cloned repository, create a new file named `index.html`.
+- Add your website's content using HTML, CSS, and JavaScript.
+
+## 4. Commit and push your changes
+
+- In your terminal or command prompt, navigate to the repository's directory.
+- Run the following commands to stage and commit your changes:
+  
+  git add .
+  git commit -m "Initial commit"
+
+- Push the changes to the remote repository using the command `git push origin main` or `git push origin master` (depending on the default branch name).
+
+## 5. Enable GitHub Pages
+
+- Go to your repository's "Settings" tab on GitHub.
+- Scroll down to the "GitHub Pages" section.
+- In the "Source" section, select the main or master branch.
+- Click "Save".
+
+## 6. Access your website
+
+- Your GitHub Pages site will be available at `https://your-username.github.io` within a few minutes.
+- Refresh the page if it does not load immediately.
+
+**Note:** You can also use custom domains or project repositories for your GitHub Pages site. For more information, refer to the [GitHub Pages documentation](https://docs.github.com/en/pages).
+
