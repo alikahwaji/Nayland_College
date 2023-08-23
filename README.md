@@ -1,18 +1,23 @@
 # Nayland_College
-A GitHub presentation_ 
+
+A GitHub presentation\_
 
 # How to Setup your GitHub account
 
 ## Step 1: Visit the GitHub website
+
 Go to GitHub to start the sign-up process.
 
 ## Step 2: Click 'Sign up'
+
 On the top-right corner of the GitHub homepage, click the Sign up button.
 
 ## Step 3: Choose a plan
+
 GitHub offers a variety of plans for individuals and teams. For personal use, select the Free plan, which offers basic features and unlimited public repositories.
 
 ## Step 4: Create your account
+
 Fill in the required information, including:
 
 Username: Choose a unique username that identifies you on GitHub.
@@ -23,18 +28,23 @@ Password: Create a strong password that meets the minimum requirements.
 Example: J0hnD03!2023
 
 ## Step 5: Verify your account
+
 Complete the CAPTCHA challenge to verify you're not a robot. This usually involves selecting images based on a prompt or solving a puzzle.
 
 ## Step 6: Customize your experience (optional)
+
 GitHub might ask you to answer a few questions to tailor your experience. These questions may include your level of programming experience, the purpose of using GitHub, and your preferred programming languages. Answer these questions or skip them if you prefer.
 
 ## Step 7: Confirm your email address
+
 GitHub will send a verification email to the address you provided. Click on the verification link in that email to confirm your account.
 
 ## Step 8: Set up your profile (optional)
+
 Once your account is verified, you can set up your profile by adding a profile picture, your name, a short bio, and other details. This step can be skipped and edited later if desired.
 
 ## Step 9: Start using GitHub
+
 Now that your account is set up, you can start creating repositories, contributing to projects, and exploring GitHub's features.
 
 Remember to explore GitHub's documentation and guides to learn more about its functionalities and how to use them effectively.
@@ -54,7 +64,9 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading
 
 # H1
+
 ## H2
+
 ### H3
 
 ### Bold
@@ -63,7 +75,7 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Italic
 
-*italicized text*
+_italicized text_
 
 ### Blockquote
 
@@ -103,10 +115,10 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Table
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
 ### Fenced Code Block
 
@@ -163,7 +175,7 @@ X^2^
 
 |--------------------------------------------------------------------------------------------------------------------------|
 
- # How to Set Up GitHub Pages
+# How to Set Up GitHub Pages
 
 GitHub Pages allows you to create and host a simple website directly from your GitHub repository. Follow these step-by-step instructions to set up your own GitHub Pages site:
 
@@ -194,7 +206,7 @@ GitHub Pages allows you to create and host a simple website directly from your G
 
 - In your terminal or command prompt, navigate to the repository's directory.
 - Run the following commands to stage and commit your changes:
-  
+
   git add .
   git commit -m "Initial commit"
 
@@ -214,3 +226,4 @@ GitHub Pages allows you to create and host a simple website directly from your G
 
 **Note:** You can also use custom domains or project repositories for your GitHub Pages site. For more information, refer to the [GitHub Pages documentation](https://docs.github.com/en/pages).
 
+<!-- void changes, i just want to test a pull request on a forked repo -->
